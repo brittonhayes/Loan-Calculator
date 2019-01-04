@@ -19,7 +19,7 @@ sans-serif;
 
 body {
   font-family: $font-stack;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 // contents
@@ -27,6 +27,7 @@ body {
   clip-path: polygon(100% 0, 100% 83%, 21% 100%, 0 100%, 0 0);
   width: 100vw;
   height: 100vh;
+  position: absolute;
 }
 
 #loading {

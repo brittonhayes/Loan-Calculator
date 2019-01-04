@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 body {
   font-family: "Montserrat", sans-serif;
-  overflow: hidden;
 }
 
 .hero {
@@ -9,6 +8,7 @@ body {
           clip-path: polygon(100% 0, 100% 83%, 21% 100%, 0 100%, 0 0);
   width: 100vw;
   height: 100vh;
+  position: absolute;
 }
 
 #loading {
