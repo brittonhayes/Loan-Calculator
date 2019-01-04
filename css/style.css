@@ -5,8 +5,8 @@ body {
 }
 
 .hero {
-  -webkit-clip-path: polygon(100% 0, 100% 74%, 31% 100%, 0 100%, 0 0);
-          clip-path: polygon(100% 0, 100% 74%, 31% 100%, 0 100%, 0 0);
+  -webkit-clip-path: polygon(100% 0, 100% 83%, 21% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 83%, 21% 100%, 0 100%, 0 0);
   width: 100vw;
   height: 100vh;
 }
