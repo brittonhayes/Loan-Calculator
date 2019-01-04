@@ -1,7 +1,6 @@
-
 // Colors
 $colors: (purple: #4b48eb,
-purple-dark: darken(#4b48eb, 10%), 
+purple-dark: darken(#4b48eb, 10%),
 dark: #222222,
 blue: #0e38b1,
 red: #e54b4b,
@@ -44,36 +43,21 @@ img {
 
 // Forms
 .input-group {
-  // titles
-  // .input-group-prepend {
-  //   .input-group-text {
-  //     // background: color(purple);
-  //     // color: color(accent);
-  //   }
-  // }
-  // values
+
   input {
     background: color(white);
     // color: color(white);
   }
-
 }
 
 
 .results {
   .input-group {
-    // titles
-    // .input-group-prepend {
-    //   .input-group-text {
-    //     // background: color(purple);
-    //     // color: color(white);
-    //   }
-    // }
 
     // values
     input {
       background: color(white);
-      color: color(dark);
+      // color: color(dark);
       font-weight: 700;
     }
 
