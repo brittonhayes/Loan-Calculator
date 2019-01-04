@@ -17,12 +17,6 @@ body {
   height: 3rem;
 }
 
-img {
-  position: absolute;
-  width: 24em;
-  bottom: -1em;
-}
-
 .input-group input {
   background: #fff;
 }
