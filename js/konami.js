@@ -15,6 +15,7 @@ $(document).keydown(function (e) {
       $("#hero").toggleClass("bg-terminal"),
       $("#hero").toggleClass("bg-purple"),
       $(".card").toggleClass("bg-terminal"),
+      $(".card").toggleClass("rgbSplit"),
       $("#calculate").toggleClass("btn-primary").toggleClass("bg-terminal"),
       $(".results").toggleClass("konami");
   }
