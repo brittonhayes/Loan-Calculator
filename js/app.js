@@ -31,12 +31,13 @@ function calculateResults(){
   const monthly = (principal*x*calculatedInterest)/(x-1);
 
   if(isFinite(monthly)) {
-    monthlyPayment.value = "$";
-    monthlyPayment.value += monthly.toFixed(2);
-    totalPayment.value = "$";
-    totalPayment.value += (monthly * calculatedPayments).toFixed(2);
-    totalInterest.value = "$";
-    totalInterest.value += ((monthly * calculatedPayments)-principal).toFixed(2);
+    monthlyPayment.value = monthly.toFixed(2);
+    totalPayment.value = (monthly * calculatedPayments).toFixed(2);
+    totalInterest.value = ((monthly * calculatedPayments)-principal).toFixed(2);
+
+    monthlyPayment.value = numeral(monthlyPayment.value).format('$0,0.00');
+    totalPayment.value = numeral(totalPayment.value).format('$0,0.00');
+    totalInterest.value = numeral(totalInterest.value).format('$0,0.00');
 
     // show results
     document.getElementById('results').style.display = 'block';
@@ -48,6 +49,17 @@ function calculateResults(){
     showError('Please check your numbers');
   }
 }
+
+
+// 500000
+// 6
+// 6
+
+
+var string = numeral(1000).format('$0,0.00');
+// '1,000'
+
+console.log(string);
 
 // Show error
 function showError(error){
