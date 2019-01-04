@@ -40,4 +40,123 @@ body {
 .bg-blue {
   background: #e54b4b;
 }
+
+body:after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: 25vw;
+  margin-bottom: 5vw;
+  width: 15vh;
+  height: 25vh;
+  min-height: 200px;
+  min-width: 200px;
+  background: -webkit-gradient(linear, right top, left top, from(white), to(#fff));
+  background: linear-gradient(270deg, white, #fff);
+  background-size: 1600% 1600%;
+  -webkit-box-shadow: inset 0px -20px 100px rgba(199, 199, 199, 0.6);
+          box-shadow: inset 0px -20px 100px rgba(199, 199, 199, 0.6);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-animation: transform 50s ease-in-out infinite both alternate, movement 40s ease-in-out infinite both, shade 60s linear infinite both;
+  animation: transform 50s ease-in-out infinite both alternate, movement 40s ease-in-out infinite both, shade 60s linear infinite both;
+}
+
+@-webkit-keyframes transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+  }
+}
+
+@keyframes transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+  }
+}
+
+@-webkit-keyframes movement {
+  0%,
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+  50% {
+    -webkit-transform: translateY(20%) rotateY(10deg);
+    transform: translateY(20%) rotateY(10deg);
+  }
+}
+
+@keyframes movement {
+  0%,
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+  50% {
+    -webkit-transform: translateY(20%) rotateY(10deg);
+    transform: translateY(20%) rotateY(10deg);
+  }
+}
+
+@-webkit-keyframes shade {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes shade {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
