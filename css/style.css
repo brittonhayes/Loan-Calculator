@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+.hero {
+  -webkit-clip-path: polygon(100% 0, 100% 74%, 31% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 74%, 31% 100%, 0 100%, 0 0);
+  width: 100vw;
+  height: 100vh;
+}
+
+#loading {
+  width: 3rem;
+  height: 3rem;
+}
+
+img {
+  position: absolute;
+  width: 24em;
+  bottom: -1em;
+}
+
+.input-group input {
+  background: #fff;
+}
+
+.results .input-group input {
+  background: #fff;
+}
+
+.bg-purple {
+  background: #4b48eb;
+}
+
+.bg-blue {
+  background: #0e38b1;
+}
+
+.bg-blue {
+  background: #e54b4b;
+}
+/*# sourceMappingURL=style.css.map */
