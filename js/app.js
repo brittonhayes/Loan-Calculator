@@ -50,14 +50,7 @@ function calculateResults(){
   }
 }
 
-
-// 500000
-// 6
-// 6
-
-
 var string = numeral(1000).format('$0,0.00');
-// '1,000'
 
 console.log(string);
 
