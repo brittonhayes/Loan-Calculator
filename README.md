@@ -1,6 +1,9 @@
 # Loan-Calculator
 ![Preview](https://i.gyazo.com/e391c96fd9a333a4fde0dddd63092e17.png)
 
+### Live Preview
+https://wonderful-williams-3f0056.netlify.com/
+
 ## What does it do?
 This loan calculator calculates:
 1. Monthly Payments
